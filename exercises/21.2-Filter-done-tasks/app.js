@@ -10,3 +10,9 @@ let tasks = [
 ];
 
 //your code here
+var newArray = tasks.filter(function(item){
+	if (item.done == false) {
+		return item;
+	}
+});
+console.log(newArray);
